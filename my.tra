@@ -1,0 +1,41 @@
+*** Creating Trace Output File 'my.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"sam7.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"mypwm.o"'
+### List of Objects: adding '"myusart.o"'
+### List of Objects: adding '"mytwi_new.o"'
+### List of Objects: adding '"mypit.o"'
+### List of Objects: adding '"timer.o"'
+### List of Objects: adding '"led.o"'
+### List of Objects: adding '"spibaro.o"'
+### List of Objects: adding '"gps.o"'
+### List of Objects: adding '"attitude.o"'
+### List of Objects: adding '"imu.o"'
+### List of Objects: adding '"inout.o"'
+### List of Objects: adding '"posest.o"'
+### List of Objects: adding '"compass_on_gps.o"'
+### List of Objects: adding '"eeprom.o"'
+### List of Objects: adding '"fixed_matrix_control.o"'
+### List of Objects: adding '"adc.o"'
+### List of Objects: adding '"test_cpp.o"'
+### List of Objects: adding '"sdcard.o"'
+### List of Objects: adding '"twi_fast.o"'
+### List of Objects: adding '"filter.o"'
+### List of Objects: adding '"usb.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "sam7.o" "main.o" "mypwm.o" "myusart.o" "mytwi_new.o" "mypit.o" "timer.o" "led.o" "spibaro.o" "gps.o" "attitude.o" "imu.o" "inout.o" "posest.o" "compass_on_gps.o" "eeprom.o" "fixed_matrix_control.o" "adc.o" "test_cpp.o" "sdcard.o" "twi_fast.o" "filter.o" "usb.o" --strict --scatter "my.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\my.map" -o "my.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'my.axf'
+### ADS-LD Command File: 'my.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'my.lnp', Handle=0x000005D4
+### Writing '.lnp' file
+### ADS-LD Command file 'my.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

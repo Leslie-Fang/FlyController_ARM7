@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "sam7.o" "main.o" "mypwm.o" "myusart.o" "mytwi_new.o" "mypit.o" "timer.o" "led.o" "spibaro.o" "gps.o" "attitude.o" "imu.o" "inout.o" "posest.o" "compass_on_gps.o" "eeprom.o" "fixed_matrix_control.o" "adc.o" "test_cpp.o" "sdcard.o" "twi_fast.o" "filter.o" "usb.o" --strict --scatter "my.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\my.map" -o "my.axf"

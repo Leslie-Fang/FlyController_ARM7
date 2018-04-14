@@ -1,0 +1,1 @@
+--cpp -c --cpu ARM7TDMI -g -O0 --apcs=interwork -I "D:\KEIL4\ARM\INC" -I "D:\KEIL4\ARM\INC\Atmel\SAM7S" -o "position_matrix_control.o" --omf_browse "position_matrix_control.crf" --depend "position_matrix_control.d" "position_matrix_control.cpp"
